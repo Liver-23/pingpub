@@ -1,7 +1,7 @@
 {
     "chain_name": "uptick",
     "chain_id":"uptick_117-1",
-    "registry_name": "uptick"
+    "registry_name": "uptick",
     "api": [
         {"provide": "LiveRaveN", "address": "https://uptick.api.liveraven.net"}
     ],
