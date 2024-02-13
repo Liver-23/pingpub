@@ -1,13 +1,13 @@
 {
     "chain_name": "nolus",
     "coingecko": "nolus",
+    "registry_name": "nolus",
     "api": [
         {"provider": "LiveRaveN", "address": "https://nolus.api.liveraven.net"}
     ],
     "rpc": [
         {"provider": "LiveRaveN", "address": "https://nolus.rpc.liveraven.net"}
     ],
-    "snapshot_provider": "",
     "sdk_version": "v0.47.6",
     "coin_type": "118",
     "min_tx_fee": "0",
