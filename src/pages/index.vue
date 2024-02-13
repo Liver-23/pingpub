@@ -57,11 +57,11 @@ const chainStore = useBlockchain()
             -1 4 -43 78 -93 165 l-90 157 -187 0 c-104 0 -188 -2 -188 -5z"/>
           </g>
         </svg> -->
-        <img src="../assets/title_logo.webp" alt="A complex vector graphic" width="300">
+        <img src="../assets/cosmos.png" alt="A complex vector graphic" width="300">
       </div>
-      <h2 class="text-primary dark:invert text-3xl md:!text-6xl font-bold">
+      <h1 class="text-primary dark:invert text-2xl md:!text-4xl font-bold">
         {{ $t('pages.title') }}
-      </h2>
+      </h1>
     </div>
     <div class="text-center text-base">
       <p class="mb-1">
