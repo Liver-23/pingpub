@@ -37,7 +37,7 @@ const chainStore = useBlockchain()
 <template>
   <div class="">
     <div class="flex md:!flex-row flex-col items-center justify-center mb-6 mt-14 gap-2">
-      <div class="w-16 rounded-full">
+      <div class="w-8 rounded-full">
         <!-- <svg version="1.0" xmlns="http://www.w3.org/2000/svg" 
           viewBox="0 0 150.000000 132.000000"
           preserveAspectRatio="xMidYMid meet">
