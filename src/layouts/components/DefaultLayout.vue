@@ -274,7 +274,9 @@ function selected(route: any, nav: NavLink) {
             </div>
           </RouterLink>
 
-        <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">{{ $t('module.links') }}</div>
+        <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">
+            Socials
+          </div>
         <a
           href="https://github.com/liver-23"
           target="_blank"
@@ -324,6 +326,7 @@ function selected(route: any, nav: NavLink) {
             Discord
           </div>
         </a> -->
+        <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">{{ $t('module.links') }}</div>
         <a
           href="https://services.liveraven.net"
           target="_blank"
