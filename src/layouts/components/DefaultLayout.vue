@@ -69,7 +69,7 @@ function selected(route: any, nav: NavLink) {
         <RouterLink to="/" class="flex items-center">
           <img class="w-10 h-10" src="../../assets/logo.svg" />
           <h1 class="flex-1 ml-3 text-2xl font-semibold dark:text-white">
-            Ping.pub
+            LiveRaveN
           </h1>
         </RouterLink>
         <div
@@ -211,7 +211,7 @@ function selected(route: any, nav: NavLink) {
         </div>
       </div>
       <div class="px-2">
-        <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">
+        <!-- <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">
           {{ $t('module.sponsors') }}
         </div>
         <a
@@ -258,7 +258,7 @@ function selected(route: any, nav: NavLink) {
           >
             Becole
           </div>
-        </a>
+        </a> -->
 
           <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">
             Tools
@@ -276,7 +276,7 @@ function selected(route: any, nav: NavLink) {
 
         <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">{{ $t('module.links') }}</div>
         <a
-          href="https://twitter.com/ping_pub"
+          href="https://twitter.com/LiverUA"
           target="_blank"
           class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
         >
@@ -284,10 +284,22 @@ function selected(route: any, nav: NavLink) {
           <div
             class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
           >
-            Twitter
+            Twitter: @LiverUA
           </div>
         </a>
         <a
+          href="https://discord.gg/JDftgMyz"
+          target="_blank"
+          class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
+        >
+          <Icon icon="mdi:discord" class="text-xl mr-2" />
+          <div
+            class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
+          >
+            Discord: @liver23
+          </div>
+        </a>
+        <!-- <a
           v-if="showDiscord"
           href="https://discord.com/invite/CmjYVSr6GW"
           target="_blank"
@@ -299,9 +311,9 @@ function selected(route: any, nav: NavLink) {
           >
             Discord
           </div>
-        </a>
+        </a> -->
         <a
-          href="https://github.com/ping-pub/explorer/discussions"
+          href="https://services.liveraven.net"
           target="_blank"
           class="py-2 px-4 flex items-center rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-[#373f59]"
         >
@@ -309,7 +321,7 @@ function selected(route: any, nav: NavLink) {
           <div
             class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
           >
-            FAQ
+            Validator Services
           </div>
         </a>
       </div>
