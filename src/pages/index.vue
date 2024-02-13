@@ -38,7 +38,7 @@ const chainStore = useBlockchain()
   <div class="">
     <div class="flex md:!flex-row flex-col items-center justify-center mb-6 mt-14 gap-2">
       <div class="w-16 rounded-full">
-        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" 
+        <!-- <svg version="1.0" xmlns="http://www.w3.org/2000/svg" 
           viewBox="0 0 150.000000 132.000000"
           preserveAspectRatio="xMidYMid meet">
           <g transform="translate(0.000000,132.000000) scale(0.100000,-0.100000)"
@@ -56,7 +56,8 @@ const chainStore = useBlockchain()
             <path d="M360 625 c0 -7 148 -263 172 -297 l19 -28 186 0 c101 0 183 3 181 8
             -1 4 -43 78 -93 165 l-90 157 -187 0 c-104 0 -188 -2 -188 -5z"/>
           </g>
-        </svg>
+        </svg> -->
+        <img src="../assets/title_logo.webp" alt="A complex vector graphic" width="300">
       </div>
       <h1 class="text-primary dark:invert text-3xl md:!text-6xl font-bold">
         {{ $t('pages.title') }}
