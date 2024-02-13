@@ -1,21 +1,21 @@
 {
     "chain_name": "namada",
     "api": [
-        {"provider": "localhost", "address": "http://127.0.0.1:38317"}
+        {"provider": "LiveRaveN", "address": "https://namada.api.liveraven.net"}
     ],
     "rpc": [
-        {"provider": "localhost", "address": "https://namada.rpc.liveraven.net:443"}
+        {"provider": "LiveRaveN", "address": "https://namada.rpc.liveraven.net:443"}
     ],
     "sdk_version": "0.45.1",
     "coin_type": "118",
     "min_tx_fee": "200",
-    "addr_prefix": "tnam",
+    "addr_prefix": "tnaan",
     "logo": "/logos/namada.svg",
     "assets": [{
         "base": "naan",
         "symbol": "NAAN",
         "exponent": "6",
-        "coingecko_id": "", 
+        "coingecko_id": "namada", 
         "logo": "/logos/namada.svg"
     }]
 }
