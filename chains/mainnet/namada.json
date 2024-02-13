@@ -4,7 +4,7 @@
         {"provider": "localhost", "address": "http://127.0.0.1:38317"}
     ],
     "rpc": [
-        {"provider": "localhost", "address": "https://namada.rpc.liveraven.net"}
+        {"provider": "localhost", "address": "https://namada.rpc.liveraven.net:443"}
     ],
     "sdk_version": "0.45.1",
     "coin_type": "118",
