@@ -1,0 +1,22 @@
+{
+    "chain_name": "kyve",
+    "registry_name": "kyve",
+    "api": [
+        {"provider": "LiveRaveN", "address": "https://kyve.api.liveraven.net"}
+    ],
+    "rpc": [
+        {"provider": "LiveRaveN", "address": "https://kyve.rpc.liveraven.net"}
+    ],
+    "sdk_version": "0.46.10",
+    "coin_type": "118",
+    "min_tx_fee": "4000",
+    "addr_prefix": "kyve",
+    "logo": "/logos/kyve.svg",
+    "assets": [{
+        "base": "ukyve",
+        "symbol": "KYVE",
+        "exponent": "6",
+        "coingecko_id": "kyve",
+        "logo": "/logos/kyve.svg"
+    }]
+}
