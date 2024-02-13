@@ -1,6 +1,6 @@
 {
     "chain_name": "kyve",
-    "coingecko": "kyve",
+    "coingecko": "kyve-network",
     "registry_name": "kyve",
     "api": [
         {"provider": "LiveRaveN", "address": "https://kyve.api.liveraven.net"}
