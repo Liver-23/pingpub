@@ -276,6 +276,18 @@ function selected(route: any, nav: NavLink) {
 
         <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">{{ $t('module.links') }}</div>
         <a
+          href="https://github.com/liver-23"
+          target="_blank"
+          class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
+        >
+          <Icon icon="mdi:github" class="text-xl mr-2" />
+          <div
+            class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
+          >
+            Liver-23
+          </div>
+        </a>
+        <a
           href="https://twitter.com/LiverUA"
           target="_blank"
           class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
@@ -284,7 +296,7 @@ function selected(route: any, nav: NavLink) {
           <div
             class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
           >
-            @LiverUA
+            LiverUA
           </div>
         </a>
         <a
@@ -296,7 +308,7 @@ function selected(route: any, nav: NavLink) {
           <div
             class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
           >
-            @liver23
+            liver23
           </div>
         </a>
         <!-- <a
@@ -346,6 +358,18 @@ function selected(route: any, nav: NavLink) {
             class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
           >
             Restake.App
+          </div>
+        </a>
+        <a
+          href="https://relayers.smartstake.io/relayer/CF6366AC879ED6CE"
+          target="_blank"
+          class="py-2 px-4 flex items-center rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-[#373f59]"
+        >
+          <img src="../../assets/relayers.png" alt="Icon" class="text-xl mr-2" />
+          <div
+            class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
+          >
+            Relayers
           </div>
         </a>
       </div>
