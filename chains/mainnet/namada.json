@@ -2,10 +2,10 @@
     "chain_name": "namada",
     "chain_id": "shielded-expedition.88f17d1d14",
     "api": [
-        {"provider": "LiveRaveN", "address": "https://namada.api.liveraven.net"}
+        {"provider": "LiveRaveN", "address": "http://127.0.0.1:38317"}
     ],
     "rpc": [
-        {"provider": "LiveRaveN", "address": "https://namada.rpc.liveraven.net"}
+        {"provider": "LiveRaveN", "address": "http://127.0.0.1:38657"}
     ],
     "sdk_version": "0.45.1",
     "coin_type": "118",
