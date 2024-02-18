@@ -12,7 +12,7 @@
   "coin_type": "60",
   "min_tx_fee": "3000000000000000",
   "addr_prefix": "zeta",
-  "logo": "/logos/zetachain.png",
+  "logo": "/logos/zetachain.jpg",
   "keplr_features": [
     "ibc-transfer",
     "ibc-go",
@@ -25,7 +25,7 @@
       "symbol": "tZETA",
       "exponent": "18",
       "coingecko_id": "",
-      "logo": "/logos/zetachain.png"
+      "logo": "/logos/zetachain.jpg"
     }
   ],
   "theme_color": "#005741"
