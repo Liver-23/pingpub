@@ -1,0 +1,23 @@
+{
+    "chain_name": "gitopia",
+    "coingecko": "",
+    "api": [
+        {"provider": "LiveRaven", "address": "https://gitopia.api.liveraven.net"}
+    ],
+    "rpc": [
+        {"provider": "LiveRaven", "address": "https://gitopia.rpc.liveraven.net"}
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.12",
+    "coin_type": "118",
+    "min_tx_fee": "3000",
+    "addr_prefix": "gitopia",
+    "logo": "/logos/gitopia.webp",
+    "assets": [{
+        "base": "ulore",
+        "symbol": "LORE",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/gitopia.webp"
+    }]
+}

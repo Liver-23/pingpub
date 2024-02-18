@@ -3,10 +3,12 @@
     "coingecko": "kyve-network",
     "registry_name": "kyve",
     "api": [
-        {"provider": "LiveRaveN", "address": "https://kyve.api.liveraven.net"}
+        {"provider": "LiveRaveN", "address": "https://kyve.api.liveraven.net"},
+        "https://api-explorer.kyve.network:443","https://api.kyve.nodestake.top"
     ],
     "rpc": [
-        {"provider": "LiveRaveN", "address": "https://kyve.rpc.liveraven.net"}
+        {"provider": "LiveRaveN", "address": "https://kyve.rpc.liveraven.net"},
+        "https://rpc-eu-1.kyve.network:443","https://rpc-us-1.kyve.network:443","https://rpc.kyve.nodestake.top"
     ],
     "sdk_version": "0.46.10",
     "coin_type": "118",
