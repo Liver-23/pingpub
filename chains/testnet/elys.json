@@ -1,6 +1,5 @@
 {
     "chain_name": "elys",
-    "coingecko": "elys-network",
     "api": [
         "https://elys.api.liveraven.net",
         "https://api.testnet.elys.network"
@@ -19,7 +18,7 @@
             "symbol": "ELYS",
             "base": "uelys",
             "exponent": 6,
-            "coingecko_id": "elys-network",
+            "coingecko_id": "elys",
             "logo": "https://avatars.githubusercontent.com/u/121874884"
         }
     ]
