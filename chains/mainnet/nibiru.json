@@ -1,0 +1,23 @@
+{
+    "chain_name": "nibiru",
+    "chain_id":"cataclysm-1",
+    "registry_name": "nibiru",
+    "api": [
+        {"provide": "LiveRaveN", "address": "https://nibiru.api.liveraven.net"}
+    ],
+    "rpc": [
+        {"provide": "LiveRaveN", "address": "https://nibiru.rpc.liveraven.net"}
+    ],
+    "sdk_version": "v0.47.10",
+    "coin_type": "60",
+    "min_tx_fee": "5000",
+    "addr_prefix": "nibiru",
+    "logo": "/logos/nibiru.svg",
+    "assets": [{
+            "base": "unibi",
+            "symbol": "NIBI",
+            "exponent": "6",
+            "coingecko_id": "nibiru",
+            "logo": "/logos/nibiru.svg"
+        }]
+}
