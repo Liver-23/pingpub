@@ -1,0 +1,21 @@
+{
+    "chain_name": "zerogravity",
+    "api": [
+        "https://testnet.zero-gravity.api.liveraven.net"
+    ],
+    "rpc": [
+        "https://testnet.zero-gravity.rpc.liveraven.net"
+    ],
+    "coin_type": "118",
+    "sdk_version": "0.46.11",
+    "addr_prefix": "evmos",
+    "min_tx_fee": "0",
+    "logo": "/logos/zg-logo.svg",
+    "assets": [
+        {
+            "symbol": "EVMOS",
+            "base": "aevmos",
+            "exponent": 18
+        }
+    ]
+}
