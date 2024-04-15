@@ -29,18 +29,11 @@ export const useStakingStore = defineStore('stakingStore', {
     };
   },
   getters: {
-
     totalPower(): number {
       const sum = (s: number, e: Validator) => {
-          return s + parseFloat(e.delegator_shares);
+        return s + parseInt(e.delegator_shares);
       };
-      const total = this.validators ? this.validators.reduce(sum, 0) : 0;
-      return parseFloat(total.toFixed(3)); // Format to 3 decimal places and convert back to number
-    // totalPower(): number {
-    //   const sum = (s: number, e: Validator) => {
-    //     return s + parseInt(e.delegator_shares);
-    //   };
-    //   return this.validators ? this.validators.reduce(sum, 0) : 0;
+      return this.validators ? this.validators.reduce(sum, 0) : 0;
     },
     blockchain() {
       return useBlockchain();
@@ -73,10 +66,10 @@ export const useStakingStore = defineStore('stakingStore', {
       return this.fetchValidators('BOND_STATUS_BONDED', 500);
     },
     async fetchInacitveValdiators() {
-      return this.fetchValidators('BOND_STATUS_UNBONDED', 500);
+      return this.fetchValidators('BOND_STATUS_UNBONDED', 1000);
     },    
     async fetchUnbondingValdiators() {
-      return this.fetchValidators('BOND_STATUS_UNBONDING', 500);
+      return this.fetchValidators('BOND_STATUS_UNBONDING', 1000);
     },
     async fetchValidator(validatorAddr: string) {
       return this.blockchain.rpc.getStakingValidator(validatorAddr);
