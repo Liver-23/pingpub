@@ -66,10 +66,10 @@ export const useStakingStore = defineStore('stakingStore', {
       return this.fetchValidators('BOND_STATUS_BONDED', 500);
     },
     async fetchInacitveValdiators() {
-      return this.fetchValidators('BOND_STATUS_UNBONDED');
+      return this.fetchValidators('BOND_STATUS_UNBONDED', 500);
     },    
     async fetchUnbondingValdiators() {
-      return this.fetchValidators('BOND_STATUS_UNBONDING');
+      return this.fetchValidators('BOND_STATUS_UNBONDING', 500);
     },
     async fetchValidator(validatorAddr: string) {
       return this.blockchain.rpc.getStakingValidator(validatorAddr);
