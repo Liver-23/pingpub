@@ -1,0 +1,21 @@
+{
+    "chain_name": "mantra",
+    "api": [
+        "https://testnet.mantra.api.liveraven.net"
+    ],
+    "rpc": [
+        "https://testnet.mantra.rpc.liveraven.net"
+    ],
+    "coin_type": "118",
+    "sdk_version": "0.46.11",
+    "addr_prefix": "mantra",
+    "min_tx_fee": "0.0002uom",
+    "logo": "/logos/mantra.png",
+    "assets": [
+        {
+            "symbol": "OM",
+            "base": "uom",
+            "exponent": 6
+        }
+    ]
+}
