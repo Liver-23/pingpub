@@ -1,0 +1,21 @@
+{
+    "chain_name": "union",
+    "api": [
+        "https://union-testnet.api.liveraven.net"
+    ],
+    "rpc": [
+        "https://union-testnet.rpc.liveraven.net"
+    ],
+    "coin_type": "118",
+    "sdk_version": "0.46.11",
+    "addr_prefix": "union",
+    "min_tx_fee": "0.0muno",
+    "logo": "/logos/union.webp",
+    "assets": [
+        {
+            "symbol": "UNO",
+            "base": "muno",
+            "exponent": 6
+        }
+    ]
+}
