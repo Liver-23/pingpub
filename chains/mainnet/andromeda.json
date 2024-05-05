@@ -1,0 +1,21 @@
+{
+    "chain_name": "andromeda",
+    "api": [
+        "https://andromeda.api.liveraven.net"
+    ],
+    "rpc": [
+        "https://andromeda.rpc.liveraven.net"
+    ],
+    "coin_type": "118",
+    "sdk_version": "0.46.11",
+    "addr_prefix": "andr",
+    "min_tx_fee": "0.001uandr",
+    "logo": "/logos/andromeda.png",
+    "assets": [
+        {
+            "symbol": "ANDR",
+            "base": "uandr",
+            "exponent": 6
+        }
+    ]
+}
