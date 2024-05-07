@@ -3,7 +3,7 @@
   "api": ["https://side.api.liveraven.net"],
   "rpc": ["https://side.rpc.liveraven.net"],
   "sdk_version": "0.47.3",
-  "addr_prefix": "side",
+  "addr_prefix": "bc",
   "min_tx_fee": "5000",
   "logo": "/logos/side.jpg",
   "assets": [
