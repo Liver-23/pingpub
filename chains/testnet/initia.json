@@ -1,0 +1,21 @@
+{
+    "chain_name": "initia",
+    "api": [
+        "https://testnet.initia.api.liveraven.net"
+    ],
+    "rpc": [
+        "https://testnet.initia.rpc.liveraven.net"
+    ],
+    "coin_type": "118",
+    "sdk_version": "0.46.11",
+    "addr_prefix": "init",
+    "min_tx_fee": "0.15unit",
+    "logo": "/logos/initia.png",
+    "assets": [
+        {
+            "symbol": "init",
+            "base": "uinit",
+            "exponent": 6
+        }
+    ]
+}
