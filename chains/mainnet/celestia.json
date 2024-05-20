@@ -1,0 +1,19 @@
+{
+    "chain_name": "celestia",
+    "coingecko": "celestia",
+    "api": ["https://celestia.api.liveraven.net"],
+    "rpc": ["https://celestia.rpc.liveraven.net"],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.14",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "celestia",
+    "logo": "/logos/celestia.png",
+    "assets": [{
+        "base": "utia",
+        "symbol": "TIA",
+        "exponent": "6",
+        "coingecko_id": "celestia",
+        "logo": "/logos/celestia.png"
+    }]
+}
