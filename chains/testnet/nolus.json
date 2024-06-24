@@ -1,6 +1,6 @@
 {
     "chain_name": "nolus",
-    "coingecko": "nolus",
+    "coingecko": "",
     "registry_name": "nolus",
     "api": [
         {"provider": "LiveRaveN", "address": "https://testnet.nolus.api.liveraven.net"},
@@ -19,7 +19,7 @@
         "base": "unls",
         "symbol": "NLS",
         "exponent": "6",
-        "coingecko_id": "nolus",
+        "coingecko_id": "",
         "logo": "/logos/nolus.svg"
     }]
 }
