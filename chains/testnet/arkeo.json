@@ -1,0 +1,22 @@
+{
+    "chain_name": "elys",
+    "api": [
+        "https://arkeo.api.liveraven.net"
+    ],
+    "rpc": [
+        "https://arkeo.rpc.liveraven.net"
+    ],
+    "coin_type": "118",
+    "sdk_version": "0.46.11",
+    "addr_prefix": "tarkeo",
+    "min_tx_fee": "0",
+    "logo": "/logos/arkeo.png",
+    "assets": [
+        {
+            "symbol": "ARKEO",
+            "base": "urakeo",
+            "exponent": 6,
+            "coingecko_id": "arkeo"
+        }
+    ]
+}
