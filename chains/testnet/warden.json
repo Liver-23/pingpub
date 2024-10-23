@@ -9,13 +9,13 @@
     "coin_type": "118",
     "sdk_version": "0.46.11",
     "addr_prefix": "warden",
-    "min_tx_fee": "0.0025uward",
+    "min_tx_fee": "25000000award",
     "logo": "/logos/warden.png",
     "assets": [
         {
             "symbol": "WARD",
-            "base": "uward",
-            "exponent": 6
+            "base": "award",
+            "exponent": 18
         }
     ]
 }
