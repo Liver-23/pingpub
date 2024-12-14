@@ -2,17 +2,15 @@
     "chain_name": "elys",
     "api": [
         "https://elys.api.liveraven.net",
-        {"provider": "Elys Team", "address": "https://api.testnet.elys.network"},
-        {"provider": "Allnodes", "address": "https://elys-testnet-rest.publicnode.com"}
+        {"provider": "Elys Team", "address": "https://api.elys.network"}
     ],
     "rpc": [
         "https://elys.rpc.liveraven.net",
-        {"provider": "Elys Team", "address": "https://rpc.testnet.elys.network:443"}, 
-        {"provider": "Allnodes", "address": "https://elys-testnet-rpc.publicnode.com"}
+        {"provider": "Elys Team", "address": "https://rpc.elys.network:443"}
     ],
-    "provider_chain": {
-        "api": ["https://rest.provider-sentry-01.ics-testnet.polypore.xyz"]
-    },
+    // "provider_chain": {
+    //     "api": ["https://rest.provider-sentry-01.ics-testnet.polypore.xyz"]
+    // },
     "coin_type": "118",
     "sdk_version": "0.50.9",
     "addr_prefix": "elys",
