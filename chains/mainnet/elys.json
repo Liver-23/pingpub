@@ -8,7 +8,9 @@
         "https://elys.rpc.liveraven.net",
         {"provider": "Elys Team", "address": "https://rpc.elys.network:443"}
     ],
-    
+    "provider_chain": {
+        "api": ["https://cosmos-rpc.publicnode.com:443"]
+    },
     "coin_type": "118",
     "sdk_version": "0.50.9",
     "addr_prefix": "elys",
