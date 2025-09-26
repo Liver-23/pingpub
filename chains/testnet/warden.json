@@ -1,10 +1,12 @@
 {
     "chain_name": "warden",
     "api": [
-        "https://testnet.warden.api.liveraven.net"
+	"https://api.barra.wardenprotocol.org",
+	"https://testnet.warden.api.liveraven.net"
     ],
     "rpc": [
-        "https://testnet.warden.rpc.liveraven.net"
+	"https://rpc.barra.wardenprotocol.org",
+	"https://testnet.warden.rpc.liveraven.net"
     ],
     "coin_type": "118",
     "sdk_version": "0.46.11",
